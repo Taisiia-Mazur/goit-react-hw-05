@@ -1,0 +1,21 @@
+.list {
+display: flex;
+gap: 20px;
+width: 100%;
+height: 100%;
+flex-wrap: wrap;
+}
+
+.item {
+width: calc((100% - 100px)/6);
+}
+
+.name {
+font-size: 16px;
+margin: 0;
+}
+
+.character {
+font-size: 14px;
+margin-top: 4px;
+}
